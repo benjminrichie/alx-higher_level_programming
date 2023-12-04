@@ -3,10 +3,15 @@
 #include <stdlib.h>
 
 /**
- * add_nodeint - This func adds a new node at the beginning of a listint_t list
+ * add_nodeint - This func adds a new node
+ * at the beginning of a listint_t list
+ *
  * @n: This is an int to add in listint_t list
+ *
  * @head: This is the pointer or head of listint_t
+ *
  * Return: address (SUCCESS) else NULL (FAILED)
+ *
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
@@ -23,9 +28,13 @@ listint_t *add_nodeint(listint_t **head, const int n)
 }
 
 /**
- * is_palindrome - This will identify if a linked list(singly) is palindrome
+ * is_palindrome - This will identify if
+ * a linked list(singly) is palindrome
+ *
  * @head: This is a pointer or head of listint_t
+ *
  * Return: 1 (SUCCESS) else 0 (FAIL)
+ *
  */
 
 int is_palindrome(listint_t **head)
