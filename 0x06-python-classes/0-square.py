@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""A module for square"""
-
-
+"""Represents a square module"""
 class Square:
     """Represent a square."""
     pass
