@@ -12,8 +12,10 @@ Attributes:
     board (list): A list of lists representing the chessboard.
     solutions (list): A list of lists containing solutions.
 
-The solutions are represented in the following format [[r, c], [r, c], [r, c], [r, c]]
-where `r` represents the row and `c` represents the column, respectively, where a
+The solutions are represented in the following format
+[[r, c], [r, c], [r, c], [r, c]]
+where `r` represents the row and `c` represents
+the column, respectively, where a
 queen must be placed on the chessboard.
 """
 import sys
@@ -35,7 +37,8 @@ def board_deepcopy(board):
 
 
 def get_solution(board):
-    """This will return the list of lists representation of a solved chessboard."""
+    """This will return the list of lists representation
+    of a solved chessboard."""
     solution = []
     for r in range(len(board)):
         for c in range(len(board)):
