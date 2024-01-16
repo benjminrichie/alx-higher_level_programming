@@ -85,7 +85,8 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
-        """To return a list of classes instantiated from a file of JSON strings.
+        """To return a list of classes instantiated
+        from a file of JSON strings.
 
         Reads from `<cls.__name__>.json`.
 
