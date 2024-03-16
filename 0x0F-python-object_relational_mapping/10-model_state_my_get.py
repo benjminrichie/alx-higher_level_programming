@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" This only prints the State object with the name passed as argument from the database
+"""
+prints the State object with the name passed as argument from a database
 """
 
 import sqlalchemy
